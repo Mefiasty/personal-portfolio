@@ -86,7 +86,11 @@ export const Projects = () => {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <p>Jeszcze Pusto 😥</p>
+                        <ProjectCard
+                          title={projects[0].title}
+                          description={projects[0].description}
+                          imgUrl={projects[0].imgUrl}
+                        />
                         <Row>
                           {projects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
