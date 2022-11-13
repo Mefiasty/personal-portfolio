@@ -102,6 +102,7 @@ export const Projects = () => {
                       <Tab.Pane eventKey="second">
                         <p>bootstrap</p>
                         <p>animate.css</p>
+                        <p>Tailwind.css</p>
                         <p>javascript</p>
                         <p>React/Node.js</p>
                       </Tab.Pane>
