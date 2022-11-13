@@ -4,7 +4,7 @@ import logo from "../assets/img/header-img.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import navIcon4 from "../assets/img/nav-icon4.svg";
+import GitHubIcon from "../assets/img/GitHub_Logo_White.png";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 import "../css/header.css";
@@ -84,7 +84,9 @@ export const Header = () => {
                 <a href="https://www.instagram.com/mefiakk/?hl=af">
                   <img src={navIcon3} alt="" />
                 </a>
-                <a href="https://github.com/Mefiasty/mateuszharbuz.github.io"></a>
+                <a href="https://github.com/Mefiasty/mateuszharbuz.github.io">
+                  <img src={GitHubIcon} alt="" />
+                </a>
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
