@@ -4,11 +4,10 @@ import logo from "../assets/img/header-img.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon4 from "../assets/img/nav-icon4.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 import "../css/header.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Header = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -86,7 +85,7 @@ export const Header = () => {
                   <img src={navIcon3} alt="" />
                 </a>
                 <a href="https://github.com/Mefiasty/mateuszharbuz.github.io">
-                  <FontAwesomeIcon icon="fa-brands fa-github" />
+                  <img src={navIcon4} alt="" />
                 </a>
               </div>
               <HashLink to="#connect">
