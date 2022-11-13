@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import tailwind from "../assets/img/tailwind.png";
-import projImg2 from "../assets/img/project-img2.png";
+import comingsoon from "../assets/img/coming-soon.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -17,15 +17,15 @@ export const Projects = () => {
       imgUrl: tailwind,
     },
     {
-      title: "Business Startup",
+      title: "Wkrótce...",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: comingsoon,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg3,
+    // },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
