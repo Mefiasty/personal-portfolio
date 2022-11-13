@@ -84,9 +84,7 @@ export const Header = () => {
                 <a href="https://www.instagram.com/mefiakk/?hl=af">
                   <img src={navIcon3} alt="" />
                 </a>
-                <a href="https://github.com/Mefiasty/mateuszharbuz.github.io">
-                  <img src={navIcon4} alt="" />
-                </a>
+                <a href="https://github.com/Mefiasty/mateuszharbuz.github.io"></a>
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
